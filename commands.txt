@@ -10,3 +10,5 @@ git push -u origin master
 git add .
 git commit -m "описание изменений"
 git push
+
+uvicorn app.main:app --reload
