@@ -13,4 +13,6 @@ class Client(Base):
     date_created = Column(DateTime)
     user_id = Column(Integer, ForeignKey("users.id"))
 
-    # user = relationship("User")  # если есть модель User
+    user = relationship("User", back_populates="clients")
+    visit_logs = relationship("VisitLog", back_populates="client", cascade="all, delete")
+
