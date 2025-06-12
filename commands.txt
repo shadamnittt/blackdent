@@ -1,0 +1,12 @@
+rm -rf .git                    # Удаляет старый git, только если хочешь начать с нуля!
+git init
+git add .
+git commit -m "initial commit"
+git branch -M master
+git remote add origin https://github.com/shadamnittt/blackdent.git
+git push -u origin master
+
+если были изменения 
+git add .
+git commit -m "описание изменений"
+git push
