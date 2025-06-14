@@ -14,3 +14,8 @@ starlette==0.46.2
 typing-inspection==0.4.1
 typing_extensions==4.14.0
 uvicorn==0.34.3
+
+# ✅ Дополнительно для авторизации
+passlib[bcrypt]==1.7.4
+python-jose==3.3.0
+python-multipart==0.0.9

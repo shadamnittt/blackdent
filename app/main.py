@@ -1,25 +1,28 @@
-from fastapi import FastAPI
-from app.routers import clients
-from fastapi.responses import FileResponse
-from fastapi.staticfiles import StaticFiles
 import os
+from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+
+from app.routers import clients, auth  # Роутеры
 
 app = FastAPI(
     title="BlackDent — Учёт Пациентов",
     version="1.0.0"
 )
 
-app.include_router(clients.router)
+# Подключение роутеров
+app.include_router(clients.router, prefix="/clients", tags=["Клиенты"])
+app.include_router(auth.router, tags=["Аутентификация"])
 
-# Пример проверки
+# Корневой маршрут
 @app.get("/")
 def root():
     return {"message": "Сервер работает!"}
 
-# Подключаем статику
+# Подключение статики
 app.mount("/static", StaticFiles(directory="app/static"), name="static")
 
-# Роут для favicon.ico
+# Favicon
 @app.get("/favicon.ico")
 async def favicon():
     return FileResponse(os.path.join("app", "static", "favicon.ico"))
