@@ -18,10 +18,14 @@ class ClientUpdate(ClientBase):
     pass
 
 # Схема для ответа клиенту
-class ClientOut(ClientBase):
+class ClientOut(BaseModel):
     id: int
+    full_name: str
+    phone_number: str
+    status: str
+    comment: str
     date_created: datetime
-    user_id: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
+

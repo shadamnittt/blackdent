@@ -5,6 +5,11 @@ from fastapi.responses import FileResponse
 from fastapi.templating import Jinja2Templates
 
 from app.routers import clients, auth
+from fastapi import FastAPI
+from app.routers import clients
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
+import os
 
 app = FastAPI(
     title="BlackDent — Учёт Пациентов",
@@ -31,3 +36,16 @@ def show_clients(request: Request):
 @app.get("/favicon.ico")
 async def favicon():
     return FileResponse(os.path.join(BASE_DIR, "static", "favicon.ico"))
+
+# Пример проверки
+@app.get("/")
+def root():
+    return {"message": "Сервер работает!"}
+
+# Подключаем статику
+app.mount("/static", StaticFiles(directory="app/static"), name="static")
+
+# Роут для favicon.ico
+@app.get("/favicon.ico")
+async def favicon():
+    return FileResponse(os.path.join("app", "static", "favicon.ico"))

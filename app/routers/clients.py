@@ -11,6 +11,7 @@ from app.crud.client_crud import (
 from app.database import get_db
 # from app.utils.auth import get_current_user
 from app.models.user import User
+from app.models.client import Client
 
 router = APIRouter(
     tags=["Клиенты"]
@@ -22,8 +23,14 @@ def add_client(client: ClientCreate, db: Session = Depends(get_db)):
     return create_client(db, client, user_id=1)
 
 @router.get("/", response_model=List[ClientOut])
-def list_clients(full_name: str = None, db: Session = Depends(get_db)):
-    return get_clients(db, full_name=full_name)
+def list_clients(
+    full_name: Optional[str] = None,
+    db: Session = Depends(get_db)
+):
+    query = db.query(Client)
+    if full_name:
+        query = query.filter(Client.full_name.ilike(f"%{full_name}%"))
+    return query.all()
 
 @router.put("/{client_id}", response_model=ClientOut)
 def edit_client(client_id: int, client: ClientUpdate, db: Session = Depends(get_db)):

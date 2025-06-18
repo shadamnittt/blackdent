@@ -48,6 +48,86 @@
         "documentation": {}
     },
     {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -85,6 +165,46 @@
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
         "documentation": {}
     },
     {
@@ -178,14 +298,6 @@
     },
     {
         "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -387,6 +499,14 @@
         "documentation": {}
     },
     {
+        "label": "foreign",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "relationship",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -448,6 +568,14 @@
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
         "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "app.models.client",
+        "description": "app.models.client",
+        "isExtraImport": true,
+        "detail": "app.models.client",
         "documentation": {}
     },
     {
@@ -659,6 +787,14 @@
         "documentation": {}
     },
     {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "OAuth2PasswordRequestForm",
         "importPath": "fastapi.security",
         "description": "fastapi.security",
@@ -859,6 +995,22 @@
         "documentation": {}
     },
     {
+        "label": "StaticFiles",
+        "importPath": "fastapi.staticfiles",
+        "description": "fastapi.staticfiles",
+        "isExtraImport": true,
+        "detail": "fastapi.staticfiles",
+        "documentation": {}
+    },
+    {
+        "label": "FileResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
         "label": "FileResponse",
         "importPath": "fastapi.responses",
         "description": "fastapi.responses",
@@ -891,6 +1043,14 @@
         "documentation": {}
     },
     {
+        "label": "clients",
+        "importPath": "app.routers",
+        "description": "app.routers",
+        "isExtraImport": true,
+        "detail": "app.routers",
+        "documentation": {}
+    },
+    {
         "label": "upgrade",
         "kind": 2,
         "importPath": "alembic.versions.1b1dee44aa50_added_clinic_name_to_users",
@@ -906,6 +1066,60 @@
         "description": "alembic.versions.1b1dee44aa50_added_clinic_name_to_users",
         "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_users_email'), table_name='users')\n    op.drop_column('users', 'password_hash')\n    op.drop_column('users', 'email')\n    op.drop_column('users', 'clinic_name')\n    # ### end Alembic commands ###",
         "detail": "alembic.versions.1b1dee44aa50_added_clinic_name_to_users",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.2b15ae063da3_add_foreignkey_to_clients_user_id",
+        "description": "alembic.versions.2b15ae063da3_add_foreignkey_to_clients_user_id",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('clients', sa.Column('user_id', sa.Integer(), nullable=True))\n    op.create_index(op.f('ix_clients_user_id'), 'clients', ['user_id'], unique=False)\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_clients_user_id'), table_name='clients')",
+        "detail": "alembic.versions.2b15ae063da3_add_foreignkey_to_clients_user_id",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.2b15ae063da3_add_foreignkey_to_clients_user_id",
+        "description": "alembic.versions.2b15ae063da3_add_foreignkey_to_clients_user_id",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_clients_user_id'), table_name='clients')\n    op.drop_column('clients', 'user_id')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.2b15ae063da3_add_foreignkey_to_clients_user_id",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.2e5c13711a39_описание_миграции",
+        "description": "alembic.versions.2e5c13711a39_описание_миграции",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_constraint('clients_user_id_fkey', 'clients', type_='foreignkey')\n    op.drop_column('clients', 'user_id')\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('clients', sa.Column('user_id', sa.INTEGER(), autoincrement=False, nullable=True))",
+        "detail": "alembic.versions.2e5c13711a39_описание_миграции",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.2e5c13711a39_описание_миграции",
+        "description": "alembic.versions.2e5c13711a39_описание_миграции",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('clients', sa.Column('user_id', sa.INTEGER(), autoincrement=False, nullable=True))\n    op.create_foreign_key('clients_user_id_fkey', 'clients', 'users', ['user_id'], ['id'])\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.2e5c13711a39_описание_миграции",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.67d3ed2f951e_описание_миграции",
+        "description": "alembic.versions.67d3ed2f951e_описание_миграции",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.67d3ed2f951e_описание_миграции",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.67d3ed2f951e_описание_миграции",
+        "description": "alembic.versions.67d3ed2f951e_описание_миграции",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.67d3ed2f951e_описание_миграции",
         "documentation": {}
     },
     {
@@ -942,6 +1156,42 @@
         "description": "alembic.versions.81fa91fe2fd4_add_visitlogs_table",
         "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_visitlogs_id'), table_name='visitlogs')\n    op.drop_table('visitlogs')\n    # ### end Alembic commands ###",
         "detail": "alembic.versions.81fa91fe2fd4_add_visitlogs_table",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.d31d99e895cc_add_foreign_key_user_id_to_client",
+        "description": "alembic.versions.d31d99e895cc_add_foreign_key_user_id_to_client",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('clients', sa.Column('user_id', sa.Integer(), nullable=True))\n    op.create_foreign_key(None, 'clients', 'users', ['user_id'], ['id'])\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_constraint(None, 'clients', type_='foreignkey')",
+        "detail": "alembic.versions.d31d99e895cc_add_foreign_key_user_id_to_client",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.d31d99e895cc_add_foreign_key_user_id_to_client",
+        "description": "alembic.versions.d31d99e895cc_add_foreign_key_user_id_to_client",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_constraint(None, 'clients', type_='foreignkey')\n    op.drop_column('clients', 'user_id')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.d31d99e895cc_add_foreign_key_user_id_to_client",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.e941b7c1b617_add_foreignkey_to_clients_user_id",
+        "description": "alembic.versions.e941b7c1b617_add_foreignkey_to_clients_user_id",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_constraint('clients_user_id_fkey', 'clients', type_='foreignkey')\n    op.drop_column('clients', 'user_id')\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('clients', sa.Column('user_id', sa.INTEGER(), autoincrement=False, nullable=True))",
+        "detail": "alembic.versions.e941b7c1b617_add_foreignkey_to_clients_user_id",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.e941b7c1b617_add_foreignkey_to_clients_user_id",
+        "description": "alembic.versions.e941b7c1b617_add_foreignkey_to_clients_user_id",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('clients', sa.Column('user_id', sa.INTEGER(), autoincrement=False, nullable=True))\n    op.create_foreign_key('clients_user_id_fkey', 'clients', 'users', ['user_id'], ['id'])\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.e941b7c1b617_add_foreignkey_to_clients_user_id",
         "documentation": {}
     },
     {
@@ -994,7 +1244,16 @@
         "kind": 2,
         "importPath": "app.crud.client_crud",
         "description": "app.crud.client_crud",
-        "peekOfCode": "def get_clients(db: Session, full_name: str = None, skip: int = 0, limit: int = 100):\n    query = db.query(Client)\n    if full_name:\n        query = query.filter(Client.full_name.ilike(f\"%{full_name}%\"))\n    return query.offset(skip).limit(limit).all()\n# Обновить клиента\ndef update_client(db: Session, client_id: int, client: ClientUpdate):\n    db_client = db.query(Client).filter(Client.id == client_id).first()\n    if not db_client:\n        return None",
+        "peekOfCode": "def get_clients(db: Session, full_name: str = None, skip: int = 0, limit: int = 100):\n    query = db.query(Client)\n    if full_name:\n        query = query.filter(Client.full_name.ilike(f\"%{full_name}%\"))\n    return query.offset(skip).limit(limit).all()\n# Получить список клиентов\ndef get_clients(db: Session, skip: int = 0, limit: int = 100):\n    return db.query(Client).offset(skip).limit(limit).all()\n# Обновить клиента\ndef update_client(db: Session, client_id: int, client: ClientUpdate):",
+        "detail": "app.crud.client_crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_clients",
+        "kind": 2,
+        "importPath": "app.crud.client_crud",
+        "description": "app.crud.client_crud",
+        "peekOfCode": "def get_clients(db: Session, skip: int = 0, limit: int = 100):\n    return db.query(Client).offset(skip).limit(limit).all()\n# Обновить клиента\ndef update_client(db: Session, client_id: int, client: ClientUpdate):\n    db_client = db.query(Client).filter(Client.id == client_id).first()\n    if not db_client:\n        return None\n    for key, value in client.dict().items():\n        setattr(db_client, key, value)\n    db.commit()",
         "detail": "app.crud.client_crud",
         "documentation": {}
     },
@@ -1021,7 +1280,7 @@
         "kind": 6,
         "importPath": "app.models.client",
         "description": "app.models.client",
-        "peekOfCode": "class Client(Base):\n    __tablename__ = \"clients\"\n    id = Column(Integer, primary_key=True, index=True)\n    full_name = Column(String, index=True)\n    phone_number = Column(String)\n    status = Column(String)  # \"надежный\" или \"проблемный\"\n    comment = Column(Text, nullable=True)\n    date_created = Column(DateTime)\n    user_id = Column(Integer, ForeignKey(\"users.id\"))\n    user = relationship(\"User\", back_populates=\"clients\")",
+        "peekOfCode": "class Client(Base):\n    __tablename__ = \"clients\"\n    id = Column(Integer, primary_key=True, index=True)\n    full_name = Column(String, index=True)\n    phone_number = Column(String)\n    status = Column(String)\n    comment = Column(Text, nullable=True)\n    date_created = Column(DateTime)\n    user_id = Column(Integer, index=True)  # Без ForeignKey\n    user = relationship(",
         "detail": "app.models.client",
         "documentation": {}
     },
@@ -1030,7 +1289,7 @@
         "kind": 6,
         "importPath": "app.models.user",
         "description": "app.models.user",
-        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    clinic_name = Column(String, nullable=False)\n    email = Column(String, unique=True, index=True, nullable=False)\n    password_hash = Column(String, nullable=False)\n    username = Column(String, unique=True, index=True, nullable=True)\n    clients = relationship(\"Client\", back_populates=\"user\")",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    clinic_name = Column(String, nullable=False)\n    email = Column(String, unique=True, index=True, nullable=False)\n    password_hash = Column(String, nullable=False)\n    username = Column(String, unique=True, index=True, nullable=True)\n    clients = relationship(\n        \"Client\",\n        back_populates=\"user\",",
         "detail": "app.models.user",
         "documentation": {}
     },
@@ -1084,7 +1343,7 @@
         "kind": 2,
         "importPath": "app.routers.clients",
         "description": "app.routers.clients",
-        "peekOfCode": "def add_client(client: ClientCreate, db: Session = Depends(get_db)):\n    # ВРЕМЕННО — user_id ставим вручную (например, 1)\n    return create_client(db, client, user_id=1)\n@router.get(\"/\", response_model=List[ClientOut])\ndef list_clients(full_name: str = None, db: Session = Depends(get_db)):\n    return get_clients(db, full_name=full_name)\n@router.put(\"/{client_id}\", response_model=ClientOut)\ndef edit_client(client_id: int, client: ClientUpdate, db: Session = Depends(get_db)):\n    return update_client(db, client_id, client)\n@router.delete(\"/{client_id}\")",
+        "peekOfCode": "def add_client(client: ClientCreate, db: Session = Depends(get_db)):\n    # ВРЕМЕННО — user_id ставим вручную (например, 1)\n    return create_client(db, client, user_id=1)\n@router.get(\"/\", response_model=List[ClientOut])\ndef list_clients(\n    full_name: Optional[str] = None,\n    db: Session = Depends(get_db)\n):\n    query = db.query(Client)\n    if full_name:",
         "detail": "app.routers.clients",
         "documentation": {}
     },
@@ -1093,7 +1352,7 @@
         "kind": 2,
         "importPath": "app.routers.clients",
         "description": "app.routers.clients",
-        "peekOfCode": "def list_clients(full_name: str = None, db: Session = Depends(get_db)):\n    return get_clients(db, full_name=full_name)\n@router.put(\"/{client_id}\", response_model=ClientOut)\ndef edit_client(client_id: int, client: ClientUpdate, db: Session = Depends(get_db)):\n    return update_client(db, client_id, client)\n@router.delete(\"/{client_id}\")\ndef remove_client(client_id: int, db: Session = Depends(get_db)):\n    delete_client(db, client_id)\n    return {\"detail\": \"Пациент удален\"}",
+        "peekOfCode": "def list_clients(\n    full_name: Optional[str] = None,\n    db: Session = Depends(get_db)\n):\n    query = db.query(Client)\n    if full_name:\n        query = query.filter(Client.full_name.ilike(f\"%{full_name}%\"))\n    return query.all()\n@router.put(\"/{client_id}\", response_model=ClientOut)\ndef edit_client(client_id: int, client: ClientUpdate, db: Session = Depends(get_db)):",
         "detail": "app.routers.clients",
         "documentation": {}
     },
@@ -1120,7 +1379,7 @@
         "kind": 5,
         "importPath": "app.routers.clients",
         "description": "app.routers.clients",
-        "peekOfCode": "router = APIRouter(\n    tags=[\"Клиенты\"]\n)\n@router.post(\"/\", response_model=ClientOut)\ndef add_client(client: ClientCreate, db: Session = Depends(get_db)):\n    # ВРЕМЕННО — user_id ставим вручную (например, 1)\n    return create_client(db, client, user_id=1)\n@router.get(\"/\", response_model=List[ClientOut])\ndef list_clients(full_name: str = None, db: Session = Depends(get_db)):\n    return get_clients(db, full_name=full_name)",
+        "peekOfCode": "router = APIRouter(\n    tags=[\"Клиенты\"]\n)\n@router.post(\"/\", response_model=ClientOut)\ndef add_client(client: ClientCreate, db: Session = Depends(get_db)):\n    # ВРЕМЕННО — user_id ставим вручную (например, 1)\n    return create_client(db, client, user_id=1)\n@router.get(\"/\", response_model=List[ClientOut])\ndef list_clients(\n    full_name: Optional[str] = None,",
         "detail": "app.routers.clients",
         "documentation": {}
     },
@@ -1138,7 +1397,7 @@
         "kind": 6,
         "importPath": "app.schemas.client_schema",
         "description": "app.schemas.client_schema",
-        "peekOfCode": "class ClientCreate(ClientBase):\n    pass\n# Схема для обновления пациента\nclass ClientUpdate(ClientBase):\n    pass\n# Схема для ответа клиенту\nclass ClientOut(ClientBase):\n    id: int\n    date_created: datetime\n    user_id: int",
+        "peekOfCode": "class ClientCreate(ClientBase):\n    pass\n# Схема для обновления пациента\nclass ClientUpdate(ClientBase):\n    pass\n# Схема для ответа клиенту\nclass ClientOut(BaseModel):\n    id: int\n    full_name: str\n    phone_number: str",
         "detail": "app.schemas.client_schema",
         "documentation": {}
     },
@@ -1147,7 +1406,7 @@
         "kind": 6,
         "importPath": "app.schemas.client_schema",
         "description": "app.schemas.client_schema",
-        "peekOfCode": "class ClientUpdate(ClientBase):\n    pass\n# Схема для ответа клиенту\nclass ClientOut(ClientBase):\n    id: int\n    date_created: datetime\n    user_id: int\n    class Config:\n        orm_mode = True",
+        "peekOfCode": "class ClientUpdate(ClientBase):\n    pass\n# Схема для ответа клиенту\nclass ClientOut(BaseModel):\n    id: int\n    full_name: str\n    phone_number: str\n    status: str\n    comment: str\n    date_created: datetime",
         "detail": "app.schemas.client_schema",
         "documentation": {}
     },
@@ -1156,7 +1415,7 @@
         "kind": 6,
         "importPath": "app.schemas.client_schema",
         "description": "app.schemas.client_schema",
-        "peekOfCode": "class ClientOut(ClientBase):\n    id: int\n    date_created: datetime\n    user_id: int\n    class Config:\n        orm_mode = True",
+        "peekOfCode": "class ClientOut(BaseModel):\n    id: int\n    full_name: str\n    phone_number: str\n    status: str\n    comment: str\n    date_created: datetime\n    class Config:\n        from_attributes = True",
         "detail": "app.schemas.client_schema",
         "documentation": {}
     },
@@ -1336,7 +1595,7 @@
         "kind": 2,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "def root(request: Request):\n    return templates.TemplateResponse(\"index.html\", {\"request\": request})\n@app.get(\"/clients.html\")\ndef show_clients(request: Request):\n    return templates.TemplateResponse(\"clients.html\", {\"request\": request})\n@app.get(\"/favicon.ico\")\nasync def favicon():\n    return FileResponse(os.path.join(BASE_DIR, \"static\", \"favicon.ico\"))",
+        "peekOfCode": "def root(request: Request):\n    return templates.TemplateResponse(\"index.html\", {\"request\": request})\n@app.get(\"/clients.html\")\ndef show_clients(request: Request):\n    return templates.TemplateResponse(\"clients.html\", {\"request\": request})\n@app.get(\"/favicon.ico\")\nasync def favicon():\n    return FileResponse(os.path.join(BASE_DIR, \"static\", \"favicon.ico\"))\n# Пример проверки\n@app.get(\"/\")",
         "detail": "app.main",
         "documentation": {}
     },
@@ -1345,7 +1604,16 @@
         "kind": 2,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "def show_clients(request: Request):\n    return templates.TemplateResponse(\"clients.html\", {\"request\": request})\n@app.get(\"/favicon.ico\")\nasync def favicon():\n    return FileResponse(os.path.join(BASE_DIR, \"static\", \"favicon.ico\"))",
+        "peekOfCode": "def show_clients(request: Request):\n    return templates.TemplateResponse(\"clients.html\", {\"request\": request})\n@app.get(\"/favicon.ico\")\nasync def favicon():\n    return FileResponse(os.path.join(BASE_DIR, \"static\", \"favicon.ico\"))\n# Пример проверки\n@app.get(\"/\")\ndef root():\n    return {\"message\": \"Сервер работает!\"}\n# Подключаем статику",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 2,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "def root():\n    return {\"message\": \"Сервер работает!\"}\n# Подключаем статику\napp.mount(\"/static\", StaticFiles(directory=\"app/static\"), name=\"static\")\n# Роут для favicon.ico\n@app.get(\"/favicon.ico\")\nasync def favicon():\n    return FileResponse(os.path.join(\"app\", \"static\", \"favicon.ico\"))",
         "detail": "app.main",
         "documentation": {}
     },

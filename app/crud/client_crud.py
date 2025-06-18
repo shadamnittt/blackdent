@@ -24,6 +24,10 @@ def get_clients(db: Session, full_name: str = None, skip: int = 0, limit: int = 
         query = query.filter(Client.full_name.ilike(f"%{full_name}%"))
     return query.offset(skip).limit(limit).all()
 
+# Получить список клиентов
+def get_clients(db: Session, skip: int = 0, limit: int = 100):
+    return db.query(Client).offset(skip).limit(limit).all()
+
 # Обновить клиента
 def update_client(db: Session, client_id: int, client: ClientUpdate):
     db_client = db.query(Client).filter(Client.id == client_id).first()
