@@ -108,6 +108,7 @@
         title.textContent = 'Создание аккаунта';
         form.innerHTML = `
           <input type="text" id="clinic_name" placeholder="Название клиники" />
+          <input type="text" id="username" placeholder="Имя пользователя" />
           <input type="email" id="email" placeholder="Email" />
           <input type="password" id="password" placeholder="Пароль" />
           <button onclick="register()">Зарегистрироваться</button>
@@ -125,13 +126,14 @@
 
     async function register() {
       const clinic_name = document.getElementById('clinic_name').value;
+      const username = document.getElementById('username').value;
       const email = document.getElementById('email').value;
       const password = document.getElementById('password').value;
 
       const response = await fetch('/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ clinic_name, email, password })
+        body: JSON.stringify({ clinic_name, username, email, password })
       });
 
       const result = await response.json();
@@ -155,10 +157,14 @@
       });
 
       const result = await response.json();
-      document.getElementById('result').textContent = response.ok
-        ? 'Вход выполнен успешно. Токен сохранён.'
-        : result.detail || 'Ошибка входа';
+      
+      if (response.ok) {
+      localStorage.setItem('token', result.access_token);
+      window.location.href = "/clients.html";
+    } else {
+      document.getElementById('result').textContent = result.detail || 'Ошибка входа';
     }
+  } 
 
     // Показываем форму регистрации при загрузке
     switchTab('register');

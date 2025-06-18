@@ -1,0 +1,1379 @@
+[
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.database",
+        "description": "app.database",
+        "isExtraImport": true,
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "importPath": "app.models.client",
+        "description": "app.models.client",
+        "isExtraImport": true,
+        "detail": "app.models.client",
+        "documentation": {}
+    },
+    {
+        "label": "ClientCreate",
+        "importPath": "app.schemas.client_schema",
+        "description": "app.schemas.client_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.client_schema",
+        "documentation": {}
+    },
+    {
+        "label": "ClientUpdate",
+        "importPath": "app.schemas.client_schema",
+        "description": "app.schemas.client_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.client_schema",
+        "documentation": {}
+    },
+    {
+        "label": "ClientCreate",
+        "importPath": "app.schemas.client_schema",
+        "description": "app.schemas.client_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.client_schema",
+        "documentation": {}
+    },
+    {
+        "label": "ClientOut",
+        "importPath": "app.schemas.client_schema",
+        "description": "app.schemas.client_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.client_schema",
+        "documentation": {}
+    },
+    {
+        "label": "ClientUpdate",
+        "importPath": "app.schemas.client_schema",
+        "description": "app.schemas.client_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.client_schema",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "app.utils",
+        "description": "app.utils",
+        "isExtraImport": true,
+        "detail": "app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "deps",
+        "importPath": "app.utils",
+        "description": "app.utils",
+        "isExtraImport": true,
+        "detail": "app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "app.utils",
+        "description": "app.utils",
+        "isExtraImport": true,
+        "detail": "app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "create_client",
+        "importPath": "app.crud.client_crud",
+        "description": "app.crud.client_crud",
+        "isExtraImport": true,
+        "detail": "app.crud.client_crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_clients",
+        "importPath": "app.crud.client_crud",
+        "description": "app.crud.client_crud",
+        "isExtraImport": true,
+        "detail": "app.crud.client_crud",
+        "documentation": {}
+    },
+    {
+        "label": "update_client",
+        "importPath": "app.crud.client_crud",
+        "description": "app.crud.client_crud",
+        "isExtraImport": true,
+        "detail": "app.crud.client_crud",
+        "documentation": {}
+    },
+    {
+        "label": "delete_client",
+        "importPath": "app.crud.client_crud",
+        "description": "app.crud.client_crud",
+        "isExtraImport": true,
+        "detail": "app.crud.client_crud",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "isExtraImport": true,
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "database",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "StaticFiles",
+        "importPath": "fastapi.staticfiles",
+        "description": "fastapi.staticfiles",
+        "isExtraImport": true,
+        "detail": "fastapi.staticfiles",
+        "documentation": {}
+    },
+    {
+        "label": "FileResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "Jinja2Templates",
+        "importPath": "fastapi.templating",
+        "description": "fastapi.templating",
+        "isExtraImport": true,
+        "detail": "fastapi.templating",
+        "documentation": {}
+    },
+    {
+        "label": "clients",
+        "importPath": "app.routers",
+        "description": "app.routers",
+        "isExtraImport": true,
+        "detail": "app.routers",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "app.routers",
+        "description": "app.routers",
+        "isExtraImport": true,
+        "detail": "app.routers",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.1b1dee44aa50_added_clinic_name_to_users",
+        "description": "alembic.versions.1b1dee44aa50_added_clinic_name_to_users",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('users', sa.Column('clinic_name', sa.String(), nullable=False))\n    op.add_column('users', sa.Column('email', sa.String(), nullable=False))\n    op.add_column('users', sa.Column('password_hash', sa.String(), nullable=False))\n    op.create_index(op.f('ix_users_email'), 'users', ['email'], unique=True)\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"",
+        "detail": "alembic.versions.1b1dee44aa50_added_clinic_name_to_users",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.1b1dee44aa50_added_clinic_name_to_users",
+        "description": "alembic.versions.1b1dee44aa50_added_clinic_name_to_users",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_users_email'), table_name='users')\n    op.drop_column('users', 'password_hash')\n    op.drop_column('users', 'email')\n    op.drop_column('users', 'clinic_name')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.1b1dee44aa50_added_clinic_name_to_users",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.68e8cfcc8308_create_clients_and_users_table",
+        "description": "alembic.versions.68e8cfcc8308_create_clients_and_users_table",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('username', sa.String(), nullable=True),\n    sa.PrimaryKeyConstraint('id')\n    )\n    op.create_index(op.f('ix_users_id'), 'users', ['id'], unique=False)\n    op.create_index(op.f('ix_users_username'), 'users', ['username'], unique=True)",
+        "detail": "alembic.versions.68e8cfcc8308_create_clients_and_users_table",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.68e8cfcc8308_create_clients_and_users_table",
+        "description": "alembic.versions.68e8cfcc8308_create_clients_and_users_table",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_clients_id'), table_name='clients')\n    op.drop_index(op.f('ix_clients_full_name'), table_name='clients')\n    op.drop_table('clients')\n    op.drop_index(op.f('ix_users_username'), table_name='users')\n    op.drop_index(op.f('ix_users_id'), table_name='users')\n    op.drop_table('users')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.68e8cfcc8308_create_clients_and_users_table",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.81fa91fe2fd4_add_visitlogs_table",
+        "description": "alembic.versions.81fa91fe2fd4_add_visitlogs_table",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('visitlogs',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('client_id', sa.Integer(), nullable=True),\n    sa.Column('date', sa.DateTime(), nullable=True),\n    sa.Column('status_on_visit', sa.Text(), nullable=True),\n    sa.Column('comment', sa.Text(), nullable=True),\n    sa.ForeignKeyConstraint(['client_id'], ['clients.id'], ),",
+        "detail": "alembic.versions.81fa91fe2fd4_add_visitlogs_table",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.81fa91fe2fd4_add_visitlogs_table",
+        "description": "alembic.versions.81fa91fe2fd4_add_visitlogs_table",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_visitlogs_id'), table_name='visitlogs')\n    op.drop_table('visitlogs')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.81fa91fe2fd4_add_visitlogs_table",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\nfrom app.database import Base",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "target_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "create_client",
+        "kind": 2,
+        "importPath": "app.crud.client_crud",
+        "description": "app.crud.client_crud",
+        "peekOfCode": "def create_client(db: Session, client: ClientCreate, user_id: int):\n    db_client = Client(\n        full_name=client.full_name,\n        phone_number=client.phone_number,\n        status=client.status,\n        comment=client.comment,\n        date_created=datetime.utcnow(),\n        user_id=user_id\n    )\n    db.add(db_client)",
+        "detail": "app.crud.client_crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_clients",
+        "kind": 2,
+        "importPath": "app.crud.client_crud",
+        "description": "app.crud.client_crud",
+        "peekOfCode": "def get_clients(db: Session, full_name: str = None, skip: int = 0, limit: int = 100):\n    query = db.query(Client)\n    if full_name:\n        query = query.filter(Client.full_name.ilike(f\"%{full_name}%\"))\n    return query.offset(skip).limit(limit).all()\n# Обновить клиента\ndef update_client(db: Session, client_id: int, client: ClientUpdate):\n    db_client = db.query(Client).filter(Client.id == client_id).first()\n    if not db_client:\n        return None",
+        "detail": "app.crud.client_crud",
+        "documentation": {}
+    },
+    {
+        "label": "update_client",
+        "kind": 2,
+        "importPath": "app.crud.client_crud",
+        "description": "app.crud.client_crud",
+        "peekOfCode": "def update_client(db: Session, client_id: int, client: ClientUpdate):\n    db_client = db.query(Client).filter(Client.id == client_id).first()\n    if not db_client:\n        return None\n    for key, value in client.dict().items():\n        setattr(db_client, key, value)\n    db.commit()\n    db.refresh(db_client)\n    return db_client\n# Удалить клиента",
+        "detail": "app.crud.client_crud",
+        "documentation": {}
+    },
+    {
+        "label": "delete_client",
+        "kind": 2,
+        "importPath": "app.crud.client_crud",
+        "description": "app.crud.client_crud",
+        "peekOfCode": "def delete_client(db: Session, client_id: int):\n    db_client = db.query(Client).filter(Client.id == client_id).first()\n    if not db_client:\n        return None\n    db.delete(db_client)\n    db.commit()\n    return db_client",
+        "detail": "app.crud.client_crud",
+        "documentation": {}
+    },
+    {
+        "label": "Client",
+        "kind": 6,
+        "importPath": "app.models.client",
+        "description": "app.models.client",
+        "peekOfCode": "class Client(Base):\n    __tablename__ = \"clients\"\n    id = Column(Integer, primary_key=True, index=True)\n    full_name = Column(String, index=True)\n    phone_number = Column(String)\n    status = Column(String)  # \"надежный\" или \"проблемный\"\n    comment = Column(Text, nullable=True)\n    date_created = Column(DateTime)\n    user_id = Column(Integer, ForeignKey(\"users.id\"))\n    user = relationship(\"User\", back_populates=\"clients\")",
+        "detail": "app.models.client",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "app.models.user",
+        "description": "app.models.user",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    clinic_name = Column(String, nullable=False)\n    email = Column(String, unique=True, index=True, nullable=False)\n    password_hash = Column(String, nullable=False)\n    username = Column(String, unique=True, index=True, nullable=True)\n    clients = relationship(\"Client\", back_populates=\"user\")",
+        "detail": "app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "VisitLog",
+        "kind": 6,
+        "importPath": "app.models.visitlog",
+        "description": "app.models.visitlog",
+        "peekOfCode": "class VisitLog(Base):\n    __tablename__ = \"visitlogs\"\n    id = Column(Integer, primary_key=True, index=True)\n    client_id = Column(Integer, ForeignKey(\"clients.id\"))\n    date = Column(DateTime)\n    status_on_visit = Column(Text)  # Можно сделать просто String, если коротко\n    comment = Column(Text, nullable=True)\n    client = relationship(\"Client\", back_populates=\"visit_logs\")",
+        "detail": "app.models.visitlog",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "app.routers.auth",
+        "description": "app.routers.auth",
+        "peekOfCode": "def register(user_data: user_schema.UserCreate, db: Session = Depends(get_db)):\n    existing_user = db.query(user_model.User).filter(user_model.User.email == user_data.email).first()\n    if existing_user:\n        raise HTTPException(status_code=400, detail=\"Email уже зарегистрирован\")\n    new_user = user_model.User(\n        clinic_name=user_data.clinic_name,\n        email=user_data.email,\n        password_hash=auth.hash_password(user_data.password),\n        username=user_data.username\n    )",
+        "detail": "app.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "app.routers.auth",
+        "description": "app.routers.auth",
+        "peekOfCode": "def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n    user = db.query(user_model.User).filter(user_model.User.email == form_data.username).first()\n    if not user or not auth.verify_password(form_data.password, user.password_hash):\n        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail=\"Неверный email или пароль\")\n    access_token = auth.create_access_token({\"sub\": user.email})\n    return {\"access_token\": access_token, \"token_type\": \"bearer\"}\n@router.get(\"/me\", response_model=user_schema.UserOut)\ndef get_current_user(current_user: user_model.User = Depends(deps.get_current_user)):  \n    return current_user",
+        "detail": "app.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "app.routers.auth",
+        "description": "app.routers.auth",
+        "peekOfCode": "def get_current_user(current_user: user_model.User = Depends(deps.get_current_user)):  \n    return current_user",
+        "detail": "app.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routers.auth",
+        "description": "app.routers.auth",
+        "peekOfCode": "router = APIRouter()\n@router.post(\"/register\", response_model=user_schema.UserOut)\ndef register(user_data: user_schema.UserCreate, db: Session = Depends(get_db)):\n    existing_user = db.query(user_model.User).filter(user_model.User.email == user_data.email).first()\n    if existing_user:\n        raise HTTPException(status_code=400, detail=\"Email уже зарегистрирован\")\n    new_user = user_model.User(\n        clinic_name=user_data.clinic_name,\n        email=user_data.email,\n        password_hash=auth.hash_password(user_data.password),",
+        "detail": "app.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "add_client",
+        "kind": 2,
+        "importPath": "app.routers.clients",
+        "description": "app.routers.clients",
+        "peekOfCode": "def add_client(client: ClientCreate, db: Session = Depends(get_db)):\n    # ВРЕМЕННО — user_id ставим вручную (например, 1)\n    return create_client(db, client, user_id=1)\n@router.get(\"/\", response_model=List[ClientOut])\ndef list_clients(full_name: str = None, db: Session = Depends(get_db)):\n    return get_clients(db, full_name=full_name)\n@router.put(\"/{client_id}\", response_model=ClientOut)\ndef edit_client(client_id: int, client: ClientUpdate, db: Session = Depends(get_db)):\n    return update_client(db, client_id, client)\n@router.delete(\"/{client_id}\")",
+        "detail": "app.routers.clients",
+        "documentation": {}
+    },
+    {
+        "label": "list_clients",
+        "kind": 2,
+        "importPath": "app.routers.clients",
+        "description": "app.routers.clients",
+        "peekOfCode": "def list_clients(full_name: str = None, db: Session = Depends(get_db)):\n    return get_clients(db, full_name=full_name)\n@router.put(\"/{client_id}\", response_model=ClientOut)\ndef edit_client(client_id: int, client: ClientUpdate, db: Session = Depends(get_db)):\n    return update_client(db, client_id, client)\n@router.delete(\"/{client_id}\")\ndef remove_client(client_id: int, db: Session = Depends(get_db)):\n    delete_client(db, client_id)\n    return {\"detail\": \"Пациент удален\"}",
+        "detail": "app.routers.clients",
+        "documentation": {}
+    },
+    {
+        "label": "edit_client",
+        "kind": 2,
+        "importPath": "app.routers.clients",
+        "description": "app.routers.clients",
+        "peekOfCode": "def edit_client(client_id: int, client: ClientUpdate, db: Session = Depends(get_db)):\n    return update_client(db, client_id, client)\n@router.delete(\"/{client_id}\")\ndef remove_client(client_id: int, db: Session = Depends(get_db)):\n    delete_client(db, client_id)\n    return {\"detail\": \"Пациент удален\"}",
+        "detail": "app.routers.clients",
+        "documentation": {}
+    },
+    {
+        "label": "remove_client",
+        "kind": 2,
+        "importPath": "app.routers.clients",
+        "description": "app.routers.clients",
+        "peekOfCode": "def remove_client(client_id: int, db: Session = Depends(get_db)):\n    delete_client(db, client_id)\n    return {\"detail\": \"Пациент удален\"}",
+        "detail": "app.routers.clients",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routers.clients",
+        "description": "app.routers.clients",
+        "peekOfCode": "router = APIRouter(\n    tags=[\"Клиенты\"]\n)\n@router.post(\"/\", response_model=ClientOut)\ndef add_client(client: ClientCreate, db: Session = Depends(get_db)):\n    # ВРЕМЕННО — user_id ставим вручную (например, 1)\n    return create_client(db, client, user_id=1)\n@router.get(\"/\", response_model=List[ClientOut])\ndef list_clients(full_name: str = None, db: Session = Depends(get_db)):\n    return get_clients(db, full_name=full_name)",
+        "detail": "app.routers.clients",
+        "documentation": {}
+    },
+    {
+        "label": "ClientBase",
+        "kind": 6,
+        "importPath": "app.schemas.client_schema",
+        "description": "app.schemas.client_schema",
+        "peekOfCode": "class ClientBase(BaseModel):\n    full_name: str\n    phone_number: str\n    status: str  # \"надежный\", \"проблемный\"\n    comment: Optional[str] = None\n# Схема для создания пациента\nclass ClientCreate(ClientBase):\n    pass\n# Схема для обновления пациента\nclass ClientUpdate(ClientBase):",
+        "detail": "app.schemas.client_schema",
+        "documentation": {}
+    },
+    {
+        "label": "ClientCreate",
+        "kind": 6,
+        "importPath": "app.schemas.client_schema",
+        "description": "app.schemas.client_schema",
+        "peekOfCode": "class ClientCreate(ClientBase):\n    pass\n# Схема для обновления пациента\nclass ClientUpdate(ClientBase):\n    pass\n# Схема для ответа клиенту\nclass ClientOut(ClientBase):\n    id: int\n    date_created: datetime\n    user_id: int",
+        "detail": "app.schemas.client_schema",
+        "documentation": {}
+    },
+    {
+        "label": "ClientUpdate",
+        "kind": 6,
+        "importPath": "app.schemas.client_schema",
+        "description": "app.schemas.client_schema",
+        "peekOfCode": "class ClientUpdate(ClientBase):\n    pass\n# Схема для ответа клиенту\nclass ClientOut(ClientBase):\n    id: int\n    date_created: datetime\n    user_id: int\n    class Config:\n        orm_mode = True",
+        "detail": "app.schemas.client_schema",
+        "documentation": {}
+    },
+    {
+        "label": "ClientOut",
+        "kind": 6,
+        "importPath": "app.schemas.client_schema",
+        "description": "app.schemas.client_schema",
+        "peekOfCode": "class ClientOut(ClientBase):\n    id: int\n    date_created: datetime\n    user_id: int\n    class Config:\n        orm_mode = True",
+        "detail": "app.schemas.client_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "peekOfCode": "class UserCreate(BaseModel):\n    clinic_name: str\n    email: EmailStr\n    password: str\n    username: Optional[str]\nclass UserOut(BaseModel):\n    id: int\n    clinic_name: str\n    email: EmailStr\n    username: Optional[str]",
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserOut",
+        "kind": 6,
+        "importPath": "app.schemas.user",
+        "description": "app.schemas.user",
+        "peekOfCode": "class UserOut(BaseModel):\n    id: int\n    clinic_name: str\n    email: EmailStr\n    username: Optional[str]\n    class Config:\n        orm_mode = True",
+        "detail": "app.schemas.user",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "kind": 2,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "def hash_password(password: str) -> str:\n    return pwd_context.hash(password)\n# Проверка пароля\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\n# Создание токена\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + expires_delta\n    to_encode.update({\"exp\": expire})",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "def verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\n# Создание токена\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + expires_delta\n    to_encode.update({\"exp\": expire})\n    return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n# Получение текущего пользователя из токена\ndef get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)) -> User:",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "def create_access_token(data: dict, expires_delta: Optional[timedelta] = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + expires_delta\n    to_encode.update({\"exp\": expire})\n    return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n# Получение текущего пользователя из токена\ndef get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)) -> User:\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Невалидный токен\",",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)) -> User:\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Невалидный токен\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        user_id: int = payload.get(\"sub\")\n        if user_id is None:",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "SECRET_KEY = \"your-secret-key\"  # Не забудь: в .env лучше\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 60\n# 🔒 Для паролей\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n# ⛓️ OAuth2 схема (используется в Depends)\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")  # URL, по которому ты выдаёшь токен (POST)\n# Хеширование пароля\ndef hash_password(password: str) -> str:\n    return pwd_context.hash(password)",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "ALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 60\n# 🔒 Для паролей\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n# ⛓️ OAuth2 схема (используется в Depends)\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")  # URL, по которому ты выдаёшь токен (POST)\n# Хеширование пароля\ndef hash_password(password: str) -> str:\n    return pwd_context.hash(password)\n# Проверка пароля",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 60\n# 🔒 Для паролей\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n# ⛓️ OAuth2 схема (используется в Depends)\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")  # URL, по которому ты выдаёшь токен (POST)\n# Хеширование пароля\ndef hash_password(password: str) -> str:\n    return pwd_context.hash(password)\n# Проверка пароля\ndef verify_password(plain_password: str, hashed_password: str) -> bool:",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n# ⛓️ OAuth2 схема (используется в Depends)\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")  # URL, по которому ты выдаёшь токен (POST)\n# Хеширование пароля\ndef hash_password(password: str) -> str:\n    return pwd_context.hash(password)\n# Проверка пароля\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\n# Создание токена",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")  # URL, по которому ты выдаёшь токен (POST)\n# Хеширование пароля\ndef hash_password(password: str) -> str:\n    return pwd_context.hash(password)\n# Проверка пароля\ndef verify_password(plain_password: str, hashed_password: str) -> bool:\n    return pwd_context.verify(plain_password, hashed_password)\n# Создание токена\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)):\n    to_encode = data.copy()",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "app.utils.deps",
+        "description": "app.utils.deps",
+        "peekOfCode": "def get_db():\n    db = database.SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndef get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)):\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",",
+        "detail": "app.utils.deps",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "app.utils.deps",
+        "description": "app.utils.deps",
+        "peekOfCode": "def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)):\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n    try:\n        payload = jwt.decode(token, auth.SECRET_KEY, algorithms=[auth.ALGORITHM])\n        email: str = payload.get(\"sub\")\n        if email is None:",
+        "detail": "app.utils.deps",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "app.utils.deps",
+        "description": "app.utils.deps",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/login\")\ndef get_db():\n    db = database.SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\ndef get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)):\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,",
+        "detail": "app.utils.deps",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "def get_db():\n    db: Session = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "DATABASE_URL = \"postgresql+psycopg2://postgres:123Wayther@localhost:5432/postgres\"\n# Создание движка и сессии\nengine = create_engine(DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# Базовый класс для моделей\nBase = declarative_base()\n# Функция для зависимости в FastAPI\ndef get_db():\n    db: Session = SessionLocal()\n    try:",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "engine = create_engine(DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# Базовый класс для моделей\nBase = declarative_base()\n# Функция для зависимости в FastAPI\ndef get_db():\n    db: Session = SessionLocal()\n    try:\n        yield db\n    finally:",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# Базовый класс для моделей\nBase = declarative_base()\n# Функция для зависимости в FastAPI\ndef get_db():\n    db: Session = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "Base = declarative_base()\n# Функция для зависимости в FastAPI\ndef get_db():\n    db: Session = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 2,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "def root(request: Request):\n    return templates.TemplateResponse(\"index.html\", {\"request\": request})\n@app.get(\"/clients.html\")\ndef show_clients(request: Request):\n    return templates.TemplateResponse(\"clients.html\", {\"request\": request})\n@app.get(\"/favicon.ico\")\nasync def favicon():\n    return FileResponse(os.path.join(BASE_DIR, \"static\", \"favicon.ico\"))",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "show_clients",
+        "kind": 2,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "def show_clients(request: Request):\n    return templates.TemplateResponse(\"clients.html\", {\"request\": request})\n@app.get(\"/favicon.ico\")\nasync def favicon():\n    return FileResponse(os.path.join(BASE_DIR, \"static\", \"favicon.ico\"))",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "app = FastAPI(\n    title=\"BlackDent — Учёт Пациентов\",\n    version=\"1.0.0\"\n)\n# Правильные пути\nBASE_DIR = os.path.dirname(os.path.abspath(__file__))\ntemplates = Jinja2Templates(directory=os.path.join(BASE_DIR, \"templates\"))\napp.mount(\"/static\", StaticFiles(directory=os.path.join(BASE_DIR, \"static\")), name=\"static\")\n# Роутеры\napp.include_router(clients.router, prefix=\"/clients\", tags=[\"Клиенты\"])",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.abspath(__file__))\ntemplates = Jinja2Templates(directory=os.path.join(BASE_DIR, \"templates\"))\napp.mount(\"/static\", StaticFiles(directory=os.path.join(BASE_DIR, \"static\")), name=\"static\")\n# Роутеры\napp.include_router(clients.router, prefix=\"/clients\", tags=[\"Клиенты\"])\napp.include_router(auth.router, tags=[\"Аутентификация\"])\n@app.get(\"/\")\ndef root(request: Request):\n    return templates.TemplateResponse(\"index.html\", {\"request\": request})\n@app.get(\"/clients.html\")",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "templates",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "templates = Jinja2Templates(directory=os.path.join(BASE_DIR, \"templates\"))\napp.mount(\"/static\", StaticFiles(directory=os.path.join(BASE_DIR, \"static\")), name=\"static\")\n# Роутеры\napp.include_router(clients.router, prefix=\"/clients\", tags=[\"Клиенты\"])\napp.include_router(auth.router, tags=[\"Аутентификация\"])\n@app.get(\"/\")\ndef root(request: Request):\n    return templates.TemplateResponse(\"index.html\", {\"request\": request})\n@app.get(\"/clients.html\")\ndef show_clients(request: Request):",
+        "detail": "app.main",
+        "documentation": {}
+    }
+]

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Список клиентов</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    input, select, textarea, button { margin-bottom: 10px; display: block; width: 100%; padding: 8px; box-sizing: border-box; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    .search-bar { margin-bottom: 20px; }
+    #add-result { margin-top: 10px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Список клиентов</h1>
+
+  <!-- Поиск -->
+  <div class="search-bar">
+    <div id="profileCard" style="display:none; border:1px solid #ccc; padding:10px; margin-bottom:20px; background:#f9f9f9;"></div>
+    <input type="text" id="search" placeholder="Поиск по ФИО">
+    <button onclick="searchClients()">Поиск</button>
+  </div>
+
+  <!-- Добавление клиента -->
+  <h3>Добавить клиента</h3>
+  <input type="text" id="name" placeholder="ФИО">
+  <input type="text" id="phone" placeholder="Телефон">
+  <select id="status">
+    <option value="надежный">надежный</option>
+    <option value="проблемный">проблемный</option>
+  </select>
+  <textarea id="comment" placeholder="Комментарий"></textarea>
+  <button onclick="addClient()">Добавить</button>
+  <div id="add-result"></div>
+
+  <!-- Таблица клиентов -->
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>ФИО</th>
+        <th>Телефон</th>
+        <th>Статус</th>
+        <th>Комментарий</th>
+        <th>Дата</th>
+      </tr>
+    </thead>
+    <tbody id="clientsTable">
+      <!-- Клиенты будут добавлены сюда -->
+    </tbody>
+  </table>
+
+  <script>
+    const token = localStorage.getItem("access_token");
+    if (!token) {
+      window.location.href = "/clients.html";
+    }
+
+    async function fetchClients(query = "") {
+      const url = query ? `/clients?full_name=${encodeURIComponent(query)}` : "/clients";
+      const res = await fetch(url, {
+        headers: { Authorization: `Bearer ${token}` }
+      });
+
+      if (!res.ok) {
+        alert("Ошибка загрузки клиентов");
+        return;
+      }
+
+      const clients = await res.json();
+      const tbody = document.getElementById('clientsTable');
+      tbody.innerHTML = '';
+      clients.forEach(client => {
+        tbody.innerHTML += `
+          <tr>
+            <td>${client.id}</td>
+            <td>${client.full_name}</td>
+            <td>${client.phone_number}</td>
+            <td>${client.status}</td>
+            <td>${client.comment || ''}</td>
+            <td>${new Date(client.date_created).toLocaleString()}</td>
+          </tr>
+        `;
+      });
+    }
+
+async function searchClients() {
+  const query = document.getElementById('search').value;
+  const res = await fetch(`/clients?full_name=${encodeURIComponent(query)}`, {
+    headers: { Authorization: `Bearer ${token}` }
+  });
+
+  const profileCard = document.getElementById('profileCard');
+  const clients = await res.json();
+
+  if (!res.ok || clients.length === 0) {
+    profileCard.style.display = 'none';
+    alert("Клиент не найден");
+    return;
+  }
+
+  // Показываем первого найденного
+  const c = clients[0];
+  profileCard.style.display = 'block';
+  profileCard.innerHTML = `
+    <strong>ФИО:</strong> ${c.full_name}<br>
+    <strong>Телефон:</strong> ${c.phone_number}<br>
+    <strong>Статус:</strong> ${c.status}<br>
+    <strong>Комментарий:</strong> ${c.comment || '-'}<br>
+    <strong>Дата добавления:</strong> ${new Date(c.date_created).toLocaleString()}
+  `;
+
+  // Также можешь обновить таблицу, если хочешь:
+  // fetchClients(query);
+}
+
+    async function addClient() {
+      const full_name = document.getElementById('name').value;
+      const phone_number = document.getElementById('phone').value;
+      const status = document.getElementById('status').value;
+      const comment = document.getElementById('comment').value;
+
+      const response = await fetch("/clients", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`
+        },
+        body: JSON.stringify({
+          full_name,
+          phone_number,
+          status,
+          comment,
+          date_created: new Date().toISOString()
+        })
+      });
+
+      const result = await response.json();
+      const resultDiv = document.getElementById('add-result');
+      if (response.ok) {
+        resultDiv.textContent = "Клиент добавлен";
+        document.getElementById('name').value = "";
+        document.getElementById('phone').value = "";
+        document.getElementById('status').value = "надежный";
+        document.getElementById('comment').value = "";
+        fetchClients(); // обновим список
+      } else {
+        resultDiv.textContent = result.detail || "Ошибка добавления клиента";
+      }
+    }
+
+    // Загрузка всех клиентов при открытии
+    fetchClients();
+  </script>
+</body>
+</html>

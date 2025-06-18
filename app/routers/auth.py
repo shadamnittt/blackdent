@@ -4,7 +4,7 @@ from sqlalchemy.orm import Session
 
 from app.schemas import user as user_schema
 from app.models import user as user_model
-from app.utils import auth, deps  # <--- добавили deps
+from app.utils import auth, deps  
 from app.database import get_db
 
 router = APIRouter()
@@ -18,7 +18,8 @@ def register(user_data: user_schema.UserCreate, db: Session = Depends(get_db)):
     new_user = user_model.User(
         clinic_name=user_data.clinic_name,
         email=user_data.email,
-        password_hash=auth.hash_password(user_data.password)
+        password_hash=auth.hash_password(user_data.password),
+        username=user_data.username
     )
     db.add(new_user)
     db.commit()
@@ -35,5 +36,5 @@ def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depend
     return {"access_token": access_token, "token_type": "bearer"}
 
 @router.get("/me", response_model=user_schema.UserOut)
-def get_current_user(current_user: user_model.User = Depends(deps.get_current_user)):  # ✅ исправлено
+def get_current_user(current_user: user_model.User = Depends(deps.get_current_user)):  
     return current_user

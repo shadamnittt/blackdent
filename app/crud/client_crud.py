@@ -18,9 +18,11 @@ def create_client(db: Session, client: ClientCreate, user_id: int):
     db.refresh(db_client)
     return db_client
 
-# Получить список клиентов
-def get_clients(db: Session, skip: int = 0, limit: int = 100):
-    return db.query(Client).offset(skip).limit(limit).all()
+def get_clients(db: Session, full_name: str = None, skip: int = 0, limit: int = 100):
+    query = db.query(Client)
+    if full_name:
+        query = query.filter(Client.full_name.ilike(f"%{full_name}%"))
+    return query.offset(skip).limit(limit).all()
 
 # Обновить клиента
 def update_client(db: Session, client_id: int, client: ClientUpdate):

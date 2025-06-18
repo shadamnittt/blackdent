@@ -9,24 +9,21 @@ from app.crud.client_crud import (
     delete_client
 )
 from app.database import get_db
+# from app.utils.auth import get_current_user
+from app.models.user import User
 
 router = APIRouter(
-    prefix="/clients",
     tags=["Клиенты"]
 )
 
 @router.post("/", response_model=ClientOut)
 def add_client(client: ClientCreate, db: Session = Depends(get_db)):
-    return create_client(db, client)
+    # ВРЕМЕННО — user_id ставим вручную (например, 1)
+    return create_client(db, client, user_id=1)
 
 @router.get("/", response_model=List[ClientOut])
-def list_clients(
-    db: Session = Depends(get_db),
-    full_name: Optional[str] = Query(None),
-    status: Optional[str] = Query(None),
-    date_created: Optional[str] = Query(None),
-):
-    return get_clients(db, full_name, status, date_created)
+def list_clients(full_name: str = None, db: Session = Depends(get_db)):
+    return get_clients(db, full_name=full_name)
 
 @router.put("/{client_id}", response_model=ClientOut)
 def edit_client(client_id: int, client: ClientUpdate, db: Session = Depends(get_db)):

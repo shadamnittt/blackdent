@@ -24,6 +24,10 @@ app.include_router(auth.router, tags=["Аутентификация"])
 def root(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
+@app.get("/clients.html")
+def show_clients(request: Request):
+    return templates.TemplateResponse("clients.html", {"request": request})
+
 @app.get("/favicon.ico")
 async def favicon():
     return FileResponse(os.path.join(BASE_DIR, "static", "favicon.ico"))
